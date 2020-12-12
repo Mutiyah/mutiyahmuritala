@@ -51,13 +51,13 @@ margin: auto;
 
 @media screen and (max-width: 1000px){
     #projectSection{
-        padding: 270px 30px 0 30px;
+        padding-top: 270px;
     }
 
 }
 @media screen and (max-width: 770px){
     #projectSection{
-        padding: 150px 30px 0 30px !important;
+        padding-top: 150px !important;
     }
 
     #projectSection hr{
@@ -70,12 +70,12 @@ margin: auto;
 @media screen and (max-width: 670px){
 
     #projectSection{
-        padding: 180px 20px 30px 20px !important;
+        padding: 180px 0 30px 0 !important;
     }
 }
 @media screen and (max-width: 380px){
     #projectSection{
-        padding: 220px 20px 30px 20px !important;
+        padding: 220px 0px 30px 0px !important;
     }
 .projectSection-content h2{
     font-size: 1.6em;
