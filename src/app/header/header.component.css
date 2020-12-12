@@ -1,0 +1,41 @@
+/* ................
+   Topmost section 
+...................*/
+#top-most{
+    background-color: #C02428 !important;
+    padding: 10px 130px;
+    z-index: 100 !important;
+    position: fixed;
+    width: 100vw;
+   
+}
+
+
+.navbar-brand{
+    color: #fff !important;
+    font-size: 2em !important;  
+    letter-spacing: .2em; 
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#break{
+    display: none;
+}
+.nav-link{
+    color: #fff !important;
+}
+@media screen and (max-width: 500px){
+    #top-most{
+        padding:30px 25px 30px 25px !important;
+    }
+
+ 
+}
+
+@media screen and (max-width: 730px){
+    #break{
+        display: block;
+    }
+}

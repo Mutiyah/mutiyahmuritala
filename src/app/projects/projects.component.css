@@ -1,0 +1,85 @@
+#projectSection{
+    padding: 0 100px 0 100px;
+    padding-top: 120px !important;
+}
+
+.projectSection-content h2, #projectSection-heading h1, .projectSection-image, p{
+    overflow-y: hidden;
+font-family: 'Montserrat', sans-serif;
+}
+.sub-projectSection p{
+    line-height: 30px;  
+}
+.sub-projectSection{
+margin: auto;
+
+}
+#projectSection-heading h1, .projectSection-content h2{
+    font-weight: bold;
+}
+
+.projectSection-content h2{
+    font-size: 1.5em;;
+}
+
+.projectSection-image a{
+    align-self: center;
+    color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+   font-family: 'Castoro', serif;
+   border-top: 1.5px solid #ccc;
+   border-bottom: 1.5px solid #ccc;
+    padding: 10px 30px;
+}
+
+.projectSection-image a:hover{
+    border: 1px solid #C02428;
+    background-color: #C02428;
+    transition: .5s ease;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgb(92, 9, 9);
+ 
+}
+
+#projectSection hr{
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px){
+    #projectSection{
+        padding: 270px 30px 0 30px;
+    }
+
+}
+@media screen and (max-width: 770px){
+    #projectSection{
+        padding: 150px 30px 0 30px !important;
+    }
+
+    #projectSection hr{
+        display: block;
+        width: 100vw;
+        margin: 50px 0 50px 0;
+       border: .5px solid #C02428;
+    }
+}
+@media screen and (max-width: 670px){
+
+    #projectSection{
+        padding: 180px 20px 30px 20px !important;
+    }
+}
+@media screen and (max-width: 380px){
+    #projectSection{
+        padding: 220px 20px 30px 20px !important;
+    }
+.projectSection-content h2{
+    font-size: 1.6em;
+}
+
+
+}
