@@ -22,6 +22,10 @@ margin: auto;
     font-size: 1.5em;;
 }
 
+.projectSection-image img:hover{
+    transform: scale(1.1);
+
+}
 .projectSection-image a{
     align-self: center;
     color: #000;
@@ -62,8 +66,8 @@ margin: auto;
 
     #projectSection hr{
         display: block;
-        width: 100vw;
-        margin: 50px 0 50px 0;
+        width: 100%;
+        margin-bottom: 50px;
        border: .5px solid #C02428;
     }
 }

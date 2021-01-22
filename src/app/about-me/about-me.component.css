@@ -4,10 +4,21 @@
     background-color: #fff;
     padding-top: 120px !important;
 }
-
-#image-section img{
-    max-width: 400px;
+#image-section1{
+    background-image: linear-gradient(to right, #C02428,  #f7cdcf );
     height: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+#image-section img{
+    position: absolute;
+    top: 0px;
+    margin-top: 68px;
+    left: 77px;
+    background-color: #fff;
+    max-width: 80%;
+    height: 400px;
+    border-radius: 20px;
 }
 
 #short-note h4, #hobbyWhen h3{
@@ -27,20 +38,41 @@
 .sub-hobby i{
     width: 80%;
     margin: auto;
+    overflow-y: hidden;
 }
+.asteriks{
+    color: #C02428;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.languages{
+    overflow-y: hidden;
+}
+@media screen and (min-width: 400px){
+
+}
+
 @media screen and (max-width: 1000px){
     #about-me{
         padding: 180px 20px 30px 20px !important;
     }
 
-    #image-section{
-       display: flex;
-       justify-content: center;
+    #image-section1{
+        display: none;
     }
-
+    #image-section{
+        display: flex;
+        justify-content: center;
+           padding-bottom: 30px;
+    }
     #image-section img{
-       flex-shrink: inherit;
+       position: relative;
        margin-bottom: 20px;
+       left: 0;
+       margin-top: 0;
+       max-width: 330px;
+
     }
 }
 

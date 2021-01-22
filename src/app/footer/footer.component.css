@@ -8,3 +8,7 @@
 #contact,  i{
     color: #fff;
 }
+
+.links i{
+  overflow-y: hidden;
+}
