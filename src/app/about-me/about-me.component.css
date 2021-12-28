@@ -6,15 +6,15 @@
 }
 #image-section1{
     background-image: linear-gradient(to right, #C02428,  #f7cdcf );
-    height: 400px;
+    height: 475px;
     border-radius: 20px;
     position: relative;
 }
 #image-section img{
     position: absolute;
     top: 0px;
-    margin-top: 68px;
-    left: 77px;
+    margin-top: 38px;
+    left: 47px;
     background-color: #fff;
     max-width: 80%;
     height: 400px;
@@ -59,7 +59,7 @@
     }
 
     #image-section1{
-        display: none;
+        display: block;
     }
     #image-section{
         display: flex;
@@ -71,7 +71,9 @@
        margin-bottom: 20px;
        left: 0;
        margin-top: 0;
-       max-width: 330px;
+       height: auto;
+       max-width: 100%;
+       object-fit: cover;
 
     }
 }

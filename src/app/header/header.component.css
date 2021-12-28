@@ -1,22 +1,25 @@
 /* ................
-   Topmost section 
+   Topmost section
 ...................*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&display=swap');
+
 #top-most{
     background-color: #C02428 !important;
     padding: 10px 130px;
     z-index: 100 !important;
     position: fixed;
     width: 100vw;
-   
+
 }
 
 
 .navbar-brand{
     color: #fff !important;
-    font-size: 2em !important;  
-    letter-spacing: .2em; 
+    font-size: 2em !important;
+    letter-spacing: .2em;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
 
 }
 
@@ -31,7 +34,7 @@
         padding:30px 25px 30px 25px !important;
     }
 
- 
+
 }
 
 @media screen and (max-width: 730px){
