@@ -1,6 +1,7 @@
 #projectSection{
     padding: 0 100px 0 100px;
     padding-top: 120px !important;
+
 }
 
 .projectSection-content h2, #projectSection-heading h1, .projectSection-image, p{
@@ -8,7 +9,7 @@
 font-family: 'Montserrat', sans-serif;
 }
 .sub-projectSection p{
-    line-height: 30px;  
+    line-height: 30px;
 }
 .sub-projectSection{
 margin: auto;
@@ -45,7 +46,7 @@ margin: auto;
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 3px 3px rgb(92, 9, 9);
- 
+
 }
 
 #projectSection hr{
@@ -55,7 +56,10 @@ margin: auto;
 
 @media screen and (max-width: 1000px){
     #projectSection{
-        padding-top: 270px;
+        /* padding-top: 270px; */
+    margin-top: 40px !important;
+      margin-left: -35px;
+      margin-right:-35px;
     }
 
 }
@@ -75,6 +79,7 @@ margin: auto;
 
     #projectSection{
         padding: 180px 0 30px 0 !important;
+
     }
 }
 @media screen and (max-width: 380px){
