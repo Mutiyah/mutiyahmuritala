@@ -14,6 +14,8 @@ export class ProjectsComponent implements OnInit {
   reactProject2: string = 'assets/images/netflix.jpg';
   reactProject3: string = 'assets/images/linkedin.jpg';
   reactProject4: string = 'assets/images/chitProject.jpg';
+  reactProject5: string = 'assets/images/checkout.jpg';
+  reactProject6: string = 'assets/images/tms.jpg';
 
   constructor() {}
 
